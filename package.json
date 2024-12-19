@@ -1,0 +1,29 @@
+{
+  "name": "aaa-server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "vercel-build": "echo hello",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "connect-timeout": "^1.9.0",
+    "cors": "^2.8.5",
+    "debug": "^4.4.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "glob": "^11.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.1",
+    "mysql2": "^3.11.5",
+    "rimraf": "^6.0.1",
+    "serverless-http": "^3.2.0",
+    "uuid": "^11.0.3",
+    "vercel": "^39.2.2"
+  }
+}
